@@ -141,6 +141,7 @@ span::after {
 
 .popup-content label {
   font-size: 0.1em;
+  text-transform: uppercase;
 }
 
 .popup-content {
