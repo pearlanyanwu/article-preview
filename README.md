@@ -25,6 +25,7 @@ Users should be able to:
 ### Screenshot
 
 ![Article Preview](article_preview.PNG)
+![Article Preview - Popup](article_preview_popup.PNG)
 
 ## My process
 
