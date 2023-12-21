@@ -24,14 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Article Preview](article_preview.png)
+![Article Preview](article_preview.PNG)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML
 - CSS Grid
 - JS
 
