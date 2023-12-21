@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Article Preview](article_preview-1.PNG)
+![Article Preview](article_preview.png)
 
 ## My process
 
