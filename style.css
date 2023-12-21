@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+body,
+#share-button {
+  background-color: hsl(210, 46%, 95%);
+}
+
+* {
+  font-family: 'Manrope', sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+#drawers-img {
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  height: 315px;
+  width: 300px;
+}
+
+.info {
+  width: 425px;
+  height: 300px;
+  background-color: hsl(0, 0%, 100%);
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  padding: 0.5em 3em;
+}
+
+.info > p:first-child {
+  font-size: 1.45rem;
+  color: hsl(217, 19%, 35%);
+}
+
+.info > p:nth-child(2) {
+  font-size: 0.9rem;
+  margin-top: -1%;
+  color: hsl(214, 17%, 51%);
+  line-height: 1.5rem;
+}
+
+.info > p:first-child,
+.info > p:nth-child(2) {
+  width: 100%;
+}
+
+.profile {
+  vertical-align: middle;
+}
+
+.profile,
+.popup-content {
+  display: inline-block;
+}
+
+.profile:last-of-type {
+  line-height: 0.4rem;
+  margin-left: 0.7rem;
+}
+
+.profile:last-of-type > p:first-child {
+  margin-top: 10em;
+  font-size: 0.1rem;
+}
+
+.info > p:first-child,
+.profile:last-of-type > p:first-child {
+  font-weight: 700;
+}
+
+.profile:last-of-type > p:nth-child(2),
+.popup-content label {
+  color: hsl(212, 23%, 69%);
+}
+
+#profile-img, 
+#share-button {
+  border-radius: 50px;
+}
+
+#profile-img {
+  height: 50px;
+  width: 50px;
+}
+
+#share-button {
+  float: right;
+  margin-right: 0.9rem;
+  margin-top: 1em;
+  padding: 10px;
+  position: relative;
+}
+
+#share-button:hover {
+  background-color: hsl(214, 17%, 51%);
+  color: hsl(210, 46%, 95%);
+}
+
+#share-button:hover,
+.icons {
+  cursor: pointer;
+}
+
+span {
+  background-color: hsl(217, 19%, 35%);
+  padding: 1.1rem 2.75rem;
+  border-radius: 7.5px;
+  margin-left: 3.7em;
+  margin-top: -5rem;
+  visibility: hidden;
+}
+
+span,
+.popup-content label {
+  letter-spacing: 5px;
+}
+
+span::after {
+  content: "";
+  top: 100%;
+  left: 50%;
+  margin-left: -0.5em;
+  border-width: 10px;
+  border-style: solid;
+  border-color: hsl(217, 19%, 35%) transparent transparent;
+}
+
+span,
+span::after {
+  position: absolute;
+}
+
+.showApps {
+  visibility: visible;
+}
+
+.popup-content label {
+  font-size: 0.1em;
+}
+
+.popup-content {
+  vertical-align: text-top;
+}
+
+.icons {
+  margin: 0 0.1em;
+}
+
+.icons:first-of-type {
+  margin-left: 1rem;
+}
